@@ -2,14 +2,14 @@ body{
     background-color:aliceblue;
 }
 h1{
-    color:rgb(14, 14, 106); 
+    color:rgb(30, 29, 29); 
     font-family:monospace; 
     font-size:35px;
     padding:50px;
     text-align:center;
 }
 h2{
-    color:rgb(2, 2, 150); 
+    color:rgb(84, 84, 88); 
     font-family:monospace; 
     font-size:25px;
 }
@@ -34,30 +34,60 @@ p{
     grid-template-columns: auto auto ;
     column-gap:50px;
 }
-.places{
-    margin-left:250px;
-    font-family:cursive;
-    color:rgb(228, 41, 38);
-    font-size: 18px;
-}
-.food{
+.container2>div{
+    margin-left:100px;
     font-family:cursive;
     color:rgb(228, 41, 38);
     font-size: 18px;
 }
 table{
     border-collapse:collapse;
-    border: 1px solid;
+    border: 3px solid;
     border-spacing: 50px;
     margin-left:100px;
+    background-color:rgb(54, 210, 215) ;
     color:rgb(19, 96, 98);
     font-family: cursive;
     width:85%;
   }
   thead{
-    border:1px solid;
+    border:3px solid;
   }
-  td{
+  td,th{
+    border:1px solid;
     padding: 10px;
     text-align:center;
+  }
+  .grid{
+    margin-left:100px;
+    width:85%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(166, 12, 148) ;
+    padding:5px;
+  }
+  .item{
+    background-color: rgb(223, 34, 201);
+    border:5px solid rgb(166, 12, 148);
+    color: rgb(27, 17, 10) ;
+    padding:20px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+  }
+  .flex{
+    background-color: rgb(44, 28, 222);
+    margin-left:100px;
+    width:84%;
+    display:flex;
+    padding:5px;
+  }
+  .element{
+    background-color: rgb(58, 124, 236);
+    border:5px solid rgb(44, 28, 222);
+    color: rgb(27, 17, 10) ;
+    padding:20px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
   }
