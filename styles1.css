@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-white-minimalist-background-map-picture-image_1322377.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 203, 212);
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(196, 12, 110);
+  }
+  form{
+    text-align: center;
+  }
+  input{
+    background-color: #ffffff7b;
+  }
+  button{
+    color:rgb(57, 57, 57) solid;
+    background-color: #a9abada4;
+
+  }
+
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .task-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(252, 222, 227, 0.599);
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .task-list li .task-text {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+  }
+
+  .task-list li .task-actions {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+  }
+
+  .task-list li .task-actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .task-list li .task-actions button.edit {
+    background-color: #5eb6ff;
+  }
+
+  .task-list li .task-actions button.delete {
+    background-color: #ff655a;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
