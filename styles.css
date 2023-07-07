@@ -1,0 +1,176 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    color: rgb(186, 255, 255);
+    background-image: url(https://wallpaperaccess.com/full/17520.jpg);
+    background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 1.6;
+    overflow-y: scroll;
+  }
+  header {
+    background-color: #000b18;
+    color: rgb(216, 255, 255);
+    padding: 1rem;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+  h2{
+    margin: 30px;
+    position:relative;
+    left: 100px;
+  }
+
+  nav a:hover {
+    color: rgb(216, 255, 255); 
+  }
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  nav a {
+    color: cadetblue;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  section {
+    padding: 3rem;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns : auto auto auto;
+    max-width: 800px;
+    margin: 0 auto;
+    color:rgba(230, 243, 255, 0.633);
+  }
+  
+  #home .container{
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  #home p{
+    padding: 30px;
+    column-gap: 50px;
+  }
+  .image img{    
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  #projects .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .project img {
+    width: 300px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  .project a{
+    color:rgb(255, 236, 212);
+    text-decoration: none;
+  }
+  .project a:hover{
+    color:rgb(255, 205, 144);
+  }
+
+  p{
+    max-width: 800px;
+    margin: 0 auto;
+    color:rgba(230, 243, 255, 0.633);
+  }
+  
+  #skills .container{
+    align-items: center;
+    overflow: hidden;
+    padding: 15px;
+  }
+  #skills .container img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 10px;background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5px;
+  }
+  .container li{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+    padding:5px;
+  }
+  
+  #contact .form-container{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+  }
+  input, textarea {
+    margin-left: 75%;
+    margin-bottom: 10px;
+    background-color:rgba(255, 241, 216, 0.803);
+    color: rgb(184, 101, 0);
+    border-radius: 5px ;
+    padding: 5px;
+    width: 350px;
+  }
+  button{
+    background-color: rgba(225, 196, 164, 0.804);
+    color: rgb(111, 48, 0);
+    margin-left: 100%;
+    border-radius: 5px ;
+    padding: 5px;
+    width: 200px;
+  }
+
+  .profiles{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .image-container i {
+    font-size: 40px; 
+    color:plum;
+    margin-right: 200px;
+    margin-bottom: 20px;
+  }
+  .image-container i:hover{
+    color: aliceblue;
+  }
